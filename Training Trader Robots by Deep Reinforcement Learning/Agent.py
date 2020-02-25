@@ -24,7 +24,7 @@ class Agent:
         self.epsilon_min = 0.01
         self.epsilon_decay = 0.995
         
-        self.DQN = self.create_DQN()
+        self.model = self.create_DQN()
 
 
     def create_DQN(self):
